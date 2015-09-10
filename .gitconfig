@@ -1,0 +1,20 @@
+[color]
+	ui = true
+[alias]
+	co = checkout
+	br = branch
+	bra = branch -a
+	brd = branch -d
+	ci = commit
+	ca = commit -am
+	cm = commit -m
+	amend = commit --amend
+	st = status
+	last = log -1 HEAD
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t  
+	dump = cat-file -p
+	rso = remote show origin
+	rpo = remote prune origin
+	po = push origin
+	gl = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
