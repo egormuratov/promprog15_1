@@ -11,11 +11,10 @@ A = 50
 B = 100
 C = 150
 
-minutes = int(raw_input(u"Введите, пожалуйста, время разговоров за месяц в минутах: ".encode('cp866')))
+minutes = int(raw_input(u"Введите, пожалуйста, время разговоров за месяц в минутах: ".encode('utf-8')))
 
-if ...:
-    ...
-elif ...:
-    ...
+if minutes >= A:
+	x = (minutes - A) * C + A * B
 else:
-    ...
+	x = minutes * B
+print("Плата за телефонный разговоры ="), x
