@@ -9,13 +9,6 @@ from room1 import get_inhabitants
 
 inhabitants = get_inhabitants()
 
-# ','.join(['a', 'b', 'c', ]) => 'a,b,c'
+names = ...  # использовать метод .join() строк
+print u"В комнате 1 живут: ...".format(...)
 
-names = ...
-print u"В комнате 1 живут: ", names
-print u"В комнате 1 живут: {names}".format(names=names)
-
-
-#~ from ... import ...
-#~ 
-#~ print ... format ... join 

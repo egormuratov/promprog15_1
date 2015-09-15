@@ -4,7 +4,6 @@
 # Сосчитать всех кто живет на улице Сукромка
 
 from sukromka_street.house1 import room1
-#~ ...
 
 count = 0
 inhabitants = room1.get_inhabitants()
