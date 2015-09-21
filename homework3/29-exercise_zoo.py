@@ -15,10 +15,7 @@ ask = 'elephant'
 # определите действия по подчистке - отпустите всех животных на волю
 
 try:
-    ...
-except ...:
-    print ...
-else:
-    print ...
-finally:
-    print ...
+    n = zoo.index(ask)
+    print ('{animal} находиться в клетки под номером - {n}'.format(n=n, animal=ask))
+except ValueError:
+    print ('{animal} - Не найден в зоопарке'.format(animal=ask))
