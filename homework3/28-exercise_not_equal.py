@@ -9,7 +9,9 @@ class NotEqual(Exception):
 
 
 def is_equal(param1, param2):
-    ...
+    if param1 != param2:
+        raise NotEqual
+
 
 
 # обработайте это исключение при вызове функции
@@ -19,8 +21,8 @@ a = 27
 b = 42
 
 try:
-    is_equal(...)
+    is_equal(a,b)
 except NotEqual:
-    ...
+    print u"Числа неравны"
 else:
-    ...
+    print u"Числа равны"
