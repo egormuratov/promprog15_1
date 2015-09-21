@@ -6,9 +6,9 @@
 
 def factorial(N):
     value = 1
-    for i in range(...):
-        value = ...
-        yield ...
+    for i in range(1, 1+N):
+        value *= i
+        yield value
             
 for f in factorial(5):
     print f
