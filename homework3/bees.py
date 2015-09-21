@@ -54,6 +54,6 @@ if __name__ == '__main__':
 
 
     bee = PupilBee()
-    bee.move_at(Point(1000, 1000))  # проверка на выход за границы экрана
+    # bee.move_at(Point(1000, 1000))  # проверка на выход за границы экрана
 
     beegarden.go()
