@@ -16,6 +16,9 @@ ask = 'elephant'
 
 try:
     n = zoo.index(ask)
-    print ('{animal} находиться в клетки под номером - {n}'.format(n=n, animal=ask))
+    print('{animal} Находиться в клетки под номером - {n}'.format(animal=ask, n=n))
 except ValueError:
-    print ('{animal} - Не найден в зоопарке'.format(animal=ask))
+    print ('{animal} Отсутсвует в зоопарке'.format(animal=ask))
+finally:
+    print ('{animal} Свободны!'.format(animal=zoo))
+    zoo = []
