@@ -14,19 +14,14 @@ BRUCE_WILLIS = 42.0
 
 input_data = raw_input('Enter elements:')
 
-lilu = int(input_data[4])
-result = BRUCE_WILLIS ** lilu
-print u"Получилось {result}".format(result=result)
-
-
 try:
-    ...
+    lilu = int(input_data[4])
+    result = BRUCE_WILLIS ** lilu
+    print u"Получилось {result}".format(result=result)
+
 except ValueError:
-    ...
+    print ("Невозможно преобразовать к числу")
 except IndexError:
-    ...
+    print ("Выход за гарницы списка")
 else:
-    ...
-
-
-
+    pass
