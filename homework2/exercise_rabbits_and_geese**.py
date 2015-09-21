@@ -11,6 +11,7 @@ for rabbits in range(total_legs):
         	j+=1
         	if rabbits*4 + geese*2 == total_legs:
             		i+=1
-print ('количество сочетаний:', i)
-print ('количество переборов', j)
+			print ('Количество кроликов: {rabbits},' ' Количество гусей: {geese}'.format(rabbits=rabbits, geese=geese))
+print ('количество сочетаний: {i}'.format(i=i))
+print ('количество переборов: {j}'.format(j=j))
 # оптимизировать количество переборов
