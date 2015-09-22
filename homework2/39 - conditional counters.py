@@ -21,5 +21,5 @@ def method(x):
 
 print ('Вариант 2 = {i}'.format(i = list(map(method,filter(lambda x: x%5==0,my_list)))))
 
-# # # вариант 3 - с помощью спискового выражения с условием
-# [... if ...]
+# вариант 3 - с помощью спискового выражения с условием
+print ('Вариант 3 = {i}'.format(i = [x/3.0 for x in my_list if x%5 == 0]))
