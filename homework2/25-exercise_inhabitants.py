@@ -6,9 +6,10 @@
 # Комната 1: Вася, Петя, Коля
 
 from room1 import get_inhabitants
+from room2 import get_inhabitants2
 
 inhabitants = get_inhabitants()
+inhabitants2 = get_inhabitants2()
 
-names = ...  # использовать метод .join() строк
-print u"В комнате 1 живут: ...".format(...)
-
+print u"В комнате 1 живут: {names}".format(names = ', '.join(inhabitants))
+print u"В комнате 2 живут: {names}".format(names = ', '.join(inhabitants2))
