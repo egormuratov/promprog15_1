@@ -16,7 +16,7 @@ def len_gt_4(param):
 
 filtered_words_lengths = filter(len_gt_4, words)
 
-print ('Колличество слов, длина которых больше 4 символов = {j}'.format(j=len(filtered_words_lengths)))
+print (u'Колличество слов, длина которых больше 4 символов = {j}'.format(j=len(filtered_words_lengths)))
 
 # выдать сумму длин слов, длинна которых > 4
 
@@ -25,5 +25,5 @@ def summ(x, y):
 
 total = reduce(summ, filtered_words_lengths)
 
-print ('сумму длин слов, длинна которых > 4 = {i}'.format(i=len(total)))
+print (u'сумму длин слов, длинна которых > 4 = {i}'.format(i=len(total)))
 

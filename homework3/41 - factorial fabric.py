@@ -6,7 +6,7 @@
 
 def factorial(N):
     value = 1
-    for i in range(1, 1+N):
+    for i in range(1, N+1):
         value *= i
         yield value
             

@@ -10,7 +10,7 @@ class NotEqual(Exception):
 
 def is_equal(param1, param2):
     if param1 != param2:
-        raise NotEqual
+        raise NotEqual()  # тут надо выкидывать обьект!
 
 
 
